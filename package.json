@@ -17,11 +17,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-googl.git"
+    "url": "git://github.com/ClaudeBot/hubot-googl.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-googl/issues"
+    "url": "https://github.com/ClaudeBot/hubot-googl/issues"
   },
 
   "dependencies": {
