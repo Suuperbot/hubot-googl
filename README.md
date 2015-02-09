@@ -19,7 +19,7 @@ A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public c
     ]
     ```
 
-3. Run `npm install`
+3. Run your bot and see below for available config / commands
 
 
 ## Configuration
