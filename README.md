@@ -1,5 +1,7 @@
 # Hubot: Goo.gl
 
+[![Build Status](https://travis-ci.org/ClaudeBot/hubot-googl.svg)](https://travis-ci.org/ClaudeBot/hubot-googl)
+
 A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public click analytics.
 
 
