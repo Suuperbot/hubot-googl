@@ -22,6 +22,8 @@ A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public c
 3. Run `npm install`
 
 
+## Configuration
+
 Variable | Default | Description
 --- | --- | ---
 `GOOGLE_API_KEY` | N/A | A unique developer [API key](https://developers.google.com/url-shortener/v1/getting_started#auth) is required to use Google's URL Shortener API
