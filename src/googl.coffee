@@ -14,12 +14,12 @@ GOOGLE_API_KEY = process.env.GOOGLE_API_KEY
 
 module.exports = (robot) ->
     if not GOOGLE_API_KEY?
-        robot.logger.debug "Missing GOOGLE_API_KEY in environment. Setting an API key is highly recommended."
+        robot.logger.warning "Missing GOOGLE_API_KEY in environment. Setting an API key is highly recommended."
 
     serverErr = "We are unable to process your request at this time due to a server error. Please try again later."
 
     robot.respond /shorten (.+)/i, (msg) ->
-        data = JSON.stringify 
+        data = JSON.stringify
             longUrl: msg.match[1]
 
         params = {}
