@@ -39,3 +39,11 @@ Variable | Default | Description
 Command | Description
 --- | ---
 hubot shorten `url` | Creates a new short URL with `url`
+
+
+## Sample Interaction
+
+```
+user1>> hubot shorten http://docs.gl/
+hubot>> user1: http://goo.gl/b2ddNc
+```
