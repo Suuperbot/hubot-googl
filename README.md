@@ -4,6 +4,8 @@
 
 A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public click analytics.
 
+See [`src/googl.coffee`](src/googl.coffee) for full documentation.
+
 
 ## Installation via NPM
 
@@ -13,7 +15,7 @@ A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public c
     npm install --save hubot-googl
     ```
 
-2. Enable the script by adding the __hubot-googl__ entry to your `external-scripts.json` file:
+2. Enable the module by adding the __hubot-googl__ entry to your `external-scripts.json` file:
 
     ```json
     [
