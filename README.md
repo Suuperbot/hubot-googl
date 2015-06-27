@@ -1,6 +1,7 @@
-# Hubot: Goo.gl
+# hubot-googl
 
 [![Build Status](https://travis-ci.org/ClaudeBot/hubot-googl.svg)](https://travis-ci.org/ClaudeBot/hubot-googl)
+[![devDependency Status](https://david-dm.org/ClaudeBot/hubot-googl/dev-status.svg)](https://david-dm.org/ClaudeBot/hubot-googl#info=devDependencies)
 
 A Hubot script for generating short [goo.gl](https://goo.gl/) URLs with public click analytics.
 
