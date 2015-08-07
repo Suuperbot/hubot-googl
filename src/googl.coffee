@@ -20,7 +20,7 @@ module.exports = (robot) ->
 
     robot.respond /shorten (.+)/i, (res) ->
         data = JSON.stringify
-            longUrl: encodeURIComponent(res.match[1])
+            longUrl: res.match[1]
 
         params = {}
         params.key = GOOGLE_API_KEY if GOOGLE_API_KEY?
