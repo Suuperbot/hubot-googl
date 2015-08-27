@@ -18,7 +18,7 @@ module.exports = (robot) ->
 
     serverErr = "I'm unable to process your request at this time due to a server error. Please try again later."
 
-    robot.respond /shorten (.+)/i, (res) ->
+    robot.respond /shorten (.+)/i, id: "googl.shorten", (res) ->
         data = JSON.stringify
             longUrl: res.match[1]
 

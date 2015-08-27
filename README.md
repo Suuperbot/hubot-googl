@@ -36,9 +36,9 @@ Variable | Default | Description
 
 ## Commands
 
-Command | Description
---- | ---
-hubot shorten `url` | Creates a new short URL with `url`
+Command | Listener ID | Description
+--- | --- | ---
+hubot shorten `url` | `googl.shorten` | Creates a new short URL with `url`
 
 
 ## Sample Interaction
